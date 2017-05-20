@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description=description, epilog=epilog)
 
-    parser.add_argument('-d', help='directory of log file', default='C:\\Windows\\INF')  # Optional argument, forced to be required
+    parser.add_argument('-d', help='directory of log file', default='C:\\Windows\\INF')  # Optional argument, file path
 
     arguments = parser.parse_args()
 
